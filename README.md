@@ -1,5 +1,5 @@
 
-# folder structur*
+# folder structur
 
 # src
 *   components
