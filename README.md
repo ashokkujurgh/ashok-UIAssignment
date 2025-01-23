@@ -1,38 +1,37 @@
 
 *folder structur*
 
-*src
+* src
 *   components
 *       FiltersComponent.jsx  // this component used for month filter
 *       SearchComponent.jsx   // this component used for search
 *       TransactionList.jsx   // thethisse component use for transaction list
 
-    *CustomHooks
-        *useFetchTransaction.js   // this custom hooks used for fetch the data and filter the data*
+*   CustomHooks
+*       useFetchTransaction.js   // this custom hooks used for fetch the data and filter the data
 
-   *moc_data
-        *transaction.json    // contains mock data*
+*   moc_data
+*       transaction.json    // contains mock data
 
-    *screens*
-        *style*
-          *HomeStyle.css     //style for home screen*
+*   screens
+*       style
+*           HomeStyle.css     //style for home screen
 
-        *HomeScreen.jsx*
-    *services*  
-        *api.js            //it is used to fetch dummy data from json file*
-    *test
-        *useFetchTransaction.test.js //this file used for test the transction api data.*
-    *utils*
-        *constant.js*
-        *rewardCalulator.js console.log('Folder Structure:');*
+*       HomeScreen.jsx
+    services
+*       api.js            //it is used to fetch dummy data from json file
+*   test
+*       useFetchTransaction.test.js //this file used for test the transction api data.
+*   utils
+*       constant.js
+*       rewardCalulator.js console.log('Folder Structure:');
 
 
-*------------------------------******************--------------------*
 
-*methods used for optimisation the reactjs:-*
+*methods used for optimisation the reactjs:-
 
-*1.debouncing*
-  *file:useFetchTransaction.js*
+*1.debouncing
+  *file:useFetchTransaction.js
   *decouncing used in useFetchTransaction.js file for prevent the api calling multiple time when
   user type the data in search input*
   *I used useEffect method for debouncing the api calling*
