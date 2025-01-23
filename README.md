@@ -1,11 +1,11 @@
 
 *folder structur*
 
-*src*
-*   components*
-*       FiltersComponent.jsx  // this component used for month filter**
-        *SearchComponent.jsx   // this component used for search* 
-        *TransactionList.jsx   // thethisse component use for transaction list*
+*src
+*   components
+*       FiltersComponent.jsx  // this component used for month filter
+*       SearchComponent.jsx   // this component used for search
+*       TransactionList.jsx   // thethisse component use for transaction list
 
     *CustomHooks
         *useFetchTransaction.js   // this custom hooks used for fetch the data and filter the data*
