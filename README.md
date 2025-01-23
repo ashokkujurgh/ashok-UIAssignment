@@ -1,5 +1,6 @@
 
-#folder structur
+*folder structur*
+
  src
     components
         FiltersComponent.jsx  // this component used for month filter 
