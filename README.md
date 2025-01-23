@@ -1,8 +1,8 @@
 
-#folder structur*
+# folder structur*
 
-#src
-#  components
+# src
+*   components
 *       FiltersComponent.jsx  // this component used for month filter
 *       SearchComponent.jsx   // this component used for search
 *       TransactionList.jsx   // thethisse component use for transaction list
@@ -28,7 +28,7 @@
 
 
 
-*methods used for optimisation the reactjs:-
+# methods used for optimisation the reactjs:-
 
 *   1.debouncing
 *        file:useFetchTransaction.js
@@ -53,11 +53,11 @@
 *       useTransction.test.js is used to test the transaction api data*
 
 
-*to install the dependancy
+# to install the dependancy
 *   npm install
-*to run the applicaiton 
+# to run the applicaiton 
 *   npm start
-*to test the application
+# to test the application
 *   npm test
 
 
