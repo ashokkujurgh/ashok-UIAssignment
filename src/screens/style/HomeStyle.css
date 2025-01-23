@@ -1,0 +1,28 @@
+.transaction-table{
+    width: 100%;
+     margin-top: 20px;
+     text-align: center
+   }
+   .main{
+    margin: 10px 50px 20px 50px;
+   }
+   .search{
+    padding: 10px;
+    width: 200px;
+   }
+   .loading{
+    margin: 40px 0;
+    color:green
+   }
+   .notfound{
+    margin: 40px 0;
+    color:red
+   }
+   .filter{
+    display: flex;
+    gap: 20px;
+   }
+   .select-month{
+    height: 40px;
+    width: 200px;
+   }
